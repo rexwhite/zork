@@ -13,7 +13,11 @@ source files, headers, and information.
 ```
 $ make
 ```
-
+To build and run Mac M1 compatible Docker image:
+```
+docker build . -f Dockerfile.Mac_M1 -t zork
+docker run -it zork
+```
 ## History of the C Implementation of Dungeon
 
 This version of dungeon has been modified from FORTRAN to C.  The
